@@ -1,80 +1,28 @@
-"""
-Day 3 – More Variables & Arithmetic
+# Day 3 — Variables & Arithmetic Operators
+# Part of the Five-Minute Daily Python Pulse series
 
-Goal: practice reassigning variables, string expressions, and numeric operators (+, -, *, /). Understand difference between string and number addition.
-"""
+# Creating and using variables
+apples = 5
+oranges = 3
 
-# Updating variables
-status = "Playing football"
-print(status)
-status = "Walking the dog"
-print(status)
+# Arithmetic operations
+total_fruit = apples + oranges
+print("Total fruit:", total_fruit)
 
-# Expression with strings
-followers = "55"
-print("Followers:" + followers)
-label = "Posts:" + "13"
-print(label)
+# String concatenation
+first_name = "Ada"
+last_name = "Lovelace"
+full_name = first_name + " " + last_name
+print("Hello,", full_name)
 
-# Store expression as variable and display
-posts_label = "Posts:" + "13"
-print(posts_label)
+# Basic subtraction
+difference = apples - oranges
+print("Fruit difference:", difference)
 
-# Using variables in expressions
-temperature = "14"
-print(temperature + " degrees")
+# Multiplication
+fruit_basket = apples * 2
+print("Fruit basket capacity:", fruit_basket)
 
-title = "Ms. "
-name = "Irene"
-print(title + name)
-
-# Numeric expressions
-active_users = 5
-print(active_users)
-
-number_of_applications = 5 + 1
-print(number_of_applications)
-
-percent = 0.5 * 100
-print(percent)
-
-number_of_steps = 70
-print("You're on step:")
-print(number_of_steps + 1)
-
-private = 3
-public = 10
-total = private + public
-print("Total posts:")
-print(total)
-
-# Divide to get average
-sum_of_grades = 460
-students = 5
-print(sum_of_grades / students)
-
-# Difference between string concatenation and numeric addition
-area = "3 * 5"
-print(area)        # prints the literal string "3 * 5" rather than 15
-
-temperature_str = "3" + "1"
-print(temperature_str)
-
-# Subtract numbers
-total = 100
-discount = 20
-print("Discounted price:")
-print(total - discount)
-
-# Reassign variable with new value
-status = "Incomplete"
-status = "Complete"
-print(status)
-status = "New data required"
-print(status)
-
-# Assign one variable from another
-default_option = "upload"
-new_status = "download"
-new_status = default_option
-print(new_status)
+# Division
+fruit_ratio = apples / oranges
+print("Fruit ratio:", fruit_ratio)
