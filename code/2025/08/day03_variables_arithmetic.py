@@ -25,4 +25,4 @@ print("Fruit basket capacity:", fruit_basket)
 
 # Division
 fruit_ratio = apples / oranges
-print("Fruit ratio:", fruit_ratio)
+print("Fruit ratio: ", fruit_ratio)

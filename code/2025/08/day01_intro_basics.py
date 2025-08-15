@@ -5,4 +5,5 @@ Goal: say hello, keep it friendly.
 
 
 # The classic first step
-print("Hello, world!")
+print("Hello, world! ")
+

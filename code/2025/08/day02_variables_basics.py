@@ -17,7 +17,7 @@ APP_NAME = "Five-Minute Daily Python Pulse"
 
 # Using variables
 print(city)                        # -> Miami
-print(f"My device is an {device_type}.")
+print(f"My device is an {device_type}")
 print(f"Quote of the day: {movie_quote}")
 
 # A tiny (optional) step further: check the type

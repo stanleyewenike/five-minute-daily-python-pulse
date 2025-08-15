@@ -24,4 +24,4 @@ fav_lang = "Python"
 if fav_lang.lower() == "python":
     print("Great choice! ")
 else:
-    print("Interesting! But have you tried Python?")
+    print("Interesting! But have you tried Python? ")

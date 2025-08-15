@@ -28,4 +28,4 @@ age = 35
 print(f"Hello, my name is {name} and I am {age} years old.")
 
 # Advanced: f-string with a calculation
-print(f"Next year, I will be {age + 1} years old.")
+print(f"Next year, I will be {age + 1} years old")

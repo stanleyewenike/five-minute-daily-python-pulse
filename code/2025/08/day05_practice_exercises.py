@@ -21,4 +21,4 @@ print("apple" != "orange")  # True
 
 # Bonus: Simple "bot" greeting
 user_name = "Stan"
-print(f"Hello {user_name}, hope you are enjoying Python!")
+print(f"Hello {user_name}, hope you are enjoying Python! ")
