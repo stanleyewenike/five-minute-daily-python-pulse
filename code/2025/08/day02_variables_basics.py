@@ -5,7 +5,7 @@ Goal: create variables, follow naming conventions, peek at constants.
 
 # Basic string variables
 city = "Miami"
-device_type = "apple"      # just a string label, not the company :)
+device_type = "apple"      # just a string label, not the company 
 movie_quote = "Winter is coming."
 
 # Naming: use snake_case for regular variables
